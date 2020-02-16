@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "card-tools/src/lit-element.js";
 import { hass } from "card-tools/src/hass.js";
 
-class SwitchCard extends LitElement {
+class ToggleCard extends LitElement {
   static get properties() {
     return {
       hass: {},
@@ -64,4 +64,4 @@ class SwitchCard extends LitElement {
     `;
   }
 }
-customElements.define("ha-switch-card", SwitchCard);
+customElements.define("toggle-card", ToggleCard);
